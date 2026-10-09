@@ -264,7 +264,7 @@
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
-      "featured": false,
+      "featured": true,
       "available": true
     },
     {
