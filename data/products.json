@@ -155,7 +155,7 @@
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
-      "featured": true,
+      "featured": false,
       "available": true
     },
     {
@@ -233,7 +233,7 @@
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
-      "featured": true,
+      "featured": false,
       "available": true
     },
     {
@@ -258,7 +258,7 @@
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
-      "featured": true,
+      "featured": false,
       "available": true
     },
     {
@@ -282,7 +282,7 @@
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
-      "featured": true,
+      "featured": false,
       "available": true
     },
     {
