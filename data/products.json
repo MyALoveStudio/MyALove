@@ -177,6 +177,9 @@
       "flowers": [
         "Lirios"
       ],
+      "quantities": [
+        4
+      ],
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
