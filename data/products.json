@@ -314,6 +314,62 @@
       "allowCard": true,
       "featured": false,
       "available": true
+    },
+    {
+      "id": "Ramo-Anime-Hinata",
+      "name": "Ramo Temática Anime (Hinata)",
+      "description": "Ramo artesanal de limpiapipas inspirado en Hinata de Naruto, con flores moradas y tarjeta del personaje.",
+      "includes": [
+        "Silueta decorativa de Hinata Hyūga",
+        "1 lirio morado y 1 capullo cerrado de limpiapipas",
+        "2 margaritas moradas con centro amarillo",
+        "Envoltura coreana morada con lazo satinado a juego"
+      ],
+      "price": 45,
+      "image": "assets/images/naruto-Photoroom.png",
+      "categories": [
+        "Para ella",
+        "Temáticos",
+        "Para él"
+      ],
+      "flowers": [
+        "Lirios"
+      ],
+      "theme": "Anime",
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "Ramo-Anime-Gojo",
+      "name": "Ramo Temática Anime (Satoru Gojo)",
+      "description": "Ramo artesanal de limpiapipas inspirado en Satoru Gojo de Jujutsu Kaisen, con flores azules y múltiples tarjetas del personaje.",
+      "includes": [
+        "Varias tarjetas decorativas con ilustraciones de Satoru Gojo",
+        "2 capullos cerrados de limpiapipas en color azul intenso",
+        "1 lirio azul claro central y mini flores blancas de acompañamiento",
+        "Envoltura blanca coreana con detalles tornasolados y lazo translúcido"
+      ],
+      "price": 59,
+      "image": "assets/images/gojo-Photoroom-1.png",
+      "categories": [
+        "Temáticos",
+        "Para él",
+        "Para ella",
+        "Ramos de 2 a 3 flores"
+      ],
+      "flowers": [
+        "Lirios",
+        "Tulipanes"
+      ],
+      "theme": "Anime",
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
     }
   ]
 }
