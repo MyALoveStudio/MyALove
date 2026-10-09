@@ -92,7 +92,7 @@
         "Hojas verdes y capullos en tallos",
         "Envoltura coreana rosa con bordes dorados y lazo blanco traslúcido"
       ],
-      "price": 12,
+      "price": 9,
       "image": "assets/images/WhatsApp_Image_2026-10-08_at_7.09.30_PM-removebg-preview.png",
       "categories": [
         "Para ella",
@@ -233,7 +233,7 @@
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
-      "featured": false,
+      "featured": true,
       "available": true
     },
     {
@@ -246,7 +246,7 @@
         "Tarjeta decorativa estilo Flork de \"Happy Birthday\" con pastel (opcion a escoger otra)",
         "Envoltura blanca y lazo de satén color crema"
       ],
-      "price": 12,
+      "price": 7,
       "image": "assets/images/iiio-removebg-preview.png",
       "categories": [
         "Para ella",
@@ -282,7 +282,7 @@
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
-      "featured": false,
+      "featured": true,
       "available": true
     },
     {
