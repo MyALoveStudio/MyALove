@@ -4,8 +4,18 @@
       "id": "mini",
       "name": "Ramo Mini",
       "description": "Pequeño y delicado, ideal para un detalle sencillo y lleno de cariño.",
-      "price": null,
+      "includes": [
+        "Flores de limpiapipas hechas a mano",
+        "Envoltura y listón"
+      ],
       "image": "assets/images/ramo-mini.svg",
+      "categories": [
+        "Para ella",
+        "Ramos de 2 a 3 flores"
+      ],
+      "flowers": [
+        "Rosas"
+      ],
       "quantities": [
         3,
         5,
@@ -14,28 +24,26 @@
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
-      "available": true,
       "featured": false,
-      "categories": [
-        "Para ella",
-        "Ramos de 2 a 3 flores"
-      ],
-      "theme": "",
-      "seasons": [],
-      "flowers": [
-        "Rosas"
-      ],
-      "includes": [
-        "Flores de limpiapipas hechas a mano",
-        "Envoltura y listón"
-      ]
+      "available": true
     },
     {
       "id": "clasico",
       "name": "Ramo Clásico",
       "description": "El ramo mediano para cumpleaños, aniversarios y fechas especiales.",
-      "price": null,
+      "includes": [
+        "Flores de limpiapipas hechas a mano",
+        "Envoltura y listón",
+        "Tarjeta con dedicatoria (opcional)"
+      ],
       "image": "assets/images/ramo-clasico.svg",
+      "categories": [
+        "Para ella",
+        "Ramos mixtos"
+      ],
+      "flowers": [
+        "Rosas"
+      ],
       "quantities": [
         9,
         12,
@@ -44,29 +52,27 @@
       "allowLed": false,
       "allowPlush": true,
       "allowCard": true,
-      "available": true,
       "featured": true,
-      "categories": [
-        "Para ella",
-        "Ramos mixtos"
-      ],
-      "theme": "",
-      "seasons": [],
-      "flowers": [
-        "Rosas"
-      ],
-      "includes": [
-        "Flores de limpiapipas hechas a mano",
-        "Envoltura y listón",
-        "Tarjeta con dedicatoria (opcional)"
-      ]
+      "available": true
     },
     {
       "id": "luminoso",
       "name": "Ramo Luminoso",
       "description": "Con luces LED que dan un brillo cálido entre las flores.",
-      "price": null,
+      "includes": [
+        "Flores de limpiapipas hechas a mano",
+        "Luces LED",
+        "Envoltura y listón"
+      ],
       "image": "assets/images/ramo-luminoso.svg",
+      "categories": [
+        "Para ella",
+        "Con luces LED",
+        "Ramos mixtos"
+      ],
+      "flowers": [
+        "Rosas"
+      ],
       "quantities": [
         9,
         12,
@@ -75,30 +81,28 @@
       "allowLed": true,
       "allowPlush": true,
       "allowCard": true,
-      "available": true,
       "featured": true,
-      "categories": [
-        "Para ella",
-        "Con luces LED",
-        "Ramos mixtos"
-      ],
-      "theme": "",
-      "seasons": [],
-      "flowers": [
-        "Rosas"
-      ],
-      "includes": [
-        "Flores de limpiapipas hechas a mano",
-        "Luces LED",
-        "Envoltura y listón"
-      ]
+      "available": true
     },
     {
       "id": "especial",
       "name": "Ramo Especial",
       "description": "Con peluche y tarjeta con dedicatoria, para un regalo completo.",
-      "price": null,
+      "includes": [
+        "Flores de limpiapipas hechas a mano",
+        "Luces LED",
+        "Peluche",
+        "Tarjeta con dedicatoria"
+      ],
       "image": "assets/images/ramo-especial.svg",
+      "categories": [
+        "Para ella",
+        "Con luces LED",
+        "Con peluche"
+      ],
+      "flowers": [
+        "Rosas"
+      ],
       "quantities": [
         12,
         15,
@@ -107,37 +111,25 @@
       "allowLed": true,
       "allowPlush": true,
       "allowCard": true,
-      "available": true,
       "featured": true,
-      "categories": [
-        "Para ella",
-        "Con luces LED",
-        "Con peluche"
-      ],
-      "theme": "",
-      "seasons": [],
-      "flowers": [
-        "Rosas"
-      ],
-      "includes": [
-        "Flores de limpiapipas hechas a mano",
-        "Luces LED",
-        "Peluche",
-        "Tarjeta con dedicatoria"
-      ]
+      "available": true
     },
     {
       "id": "azul",
       "name": "Ramo Azul (ejemplo)",
       "description": "Ramo en tonos azules y blancos, pensado para regalar a él. Ejemplo: reemplázalo por tu modelo real.",
-      "price": null,
+      "includes": [
+        "Flores de limpiapipas hechas a mano",
+        "Envoltura y listón"
+      ],
       "image": "assets/images/ramo-azul.svg",
       "categories": [
         "Para él",
         "Ramos mixtos"
       ],
-      "theme": "",
-      "seasons": [],
+      "flowers": [
+        "Rosas"
+      ],
       "quantities": [
         5,
         7,
@@ -147,29 +139,28 @@
       "allowPlush": false,
       "allowCard": true,
       "featured": false,
-      "available": true,
-      "flowers": [
-        "Rosas"
-      ],
-      "includes": [
-        "Flores de limpiapipas hechas a mano",
-        "Envoltura y listón"
-      ]
+      "available": true
     },
     {
       "id": "halloween",
       "name": "Ramo Halloween (ejemplo)",
       "description": "Naranja, morado y negro con luces para la temporada. Ejemplo: reemplázalo por tu modelo real.",
-      "price": null,
+      "includes": [
+        "Flores de limpiapipas hechas a mano",
+        "Envoltura y listón"
+      ],
       "image": "assets/images/ramo-halloween.svg",
       "categories": [
         "Temáticos",
         "Con luces LED"
       ],
-      "theme": "Halloween",
       "seasons": [
         "halloween"
       ],
+      "flowers": [
+        "Rosas"
+      ],
+      "theme": "Halloween",
       "quantities": [
         9,
         12
@@ -178,29 +169,28 @@
       "allowPlush": false,
       "allowCard": true,
       "featured": false,
-      "available": true,
-      "flowers": [
-        "Rosas"
-      ],
-      "includes": [
-        "Flores de limpiapipas hechas a mano",
-        "Envoltura y listón"
-      ]
+      "available": true
     },
     {
       "id": "navidad",
       "name": "Ramo Navidad (ejemplo)",
       "description": "Rojo y blanco con luces cálidas para las fiestas. Ejemplo: reemplázalo por tu modelo real.",
-      "price": null,
+      "includes": [
+        "Flores de limpiapipas hechas a mano",
+        "Envoltura y listón"
+      ],
       "image": "assets/images/ramo-navidad.svg",
       "categories": [
         "Temáticos",
         "Con luces LED"
       ],
-      "theme": "Navidad",
       "seasons": [
         "navidad"
       ],
+      "flowers": [
+        "Rosas"
+      ],
+      "theme": "Navidad",
       "quantities": [
         9,
         12,
@@ -210,29 +200,28 @@
       "allowPlush": true,
       "allowCard": true,
       "featured": false,
-      "available": true,
-      "flowers": [
-        "Rosas"
-      ],
-      "includes": [
-        "Flores de limpiapipas hechas a mano",
-        "Envoltura y listón"
-      ]
+      "available": true
     },
     {
       "id": "madre",
       "name": "Ramo Mamá (ejemplo)",
       "description": "Rosas y lilas suaves para el Día de la Madre. Ejemplo: reemplázalo por tu modelo real.",
-      "price": null,
+      "includes": [
+        "Flores de limpiapipas hechas a mano",
+        "Envoltura y listón"
+      ],
       "image": "assets/images/ramo-madre.svg",
       "categories": [
         "Para ella",
         "Temáticos"
       ],
-      "theme": "Día de la Madre",
       "seasons": [
         "dia-de-la-madre"
       ],
+      "flowers": [
+        "Rosas"
+      ],
+      "theme": "Día de la Madre",
       "quantities": [
         9,
         12,
@@ -242,29 +231,28 @@
       "allowPlush": true,
       "allowCard": true,
       "featured": false,
-      "available": true,
-      "flowers": [
-        "Rosas"
-      ],
-      "includes": [
-        "Flores de limpiapipas hechas a mano",
-        "Envoltura y listón"
-      ]
+      "available": true
     },
     {
       "id": "sanvalentin",
       "name": "Ramo San Valentín (ejemplo)",
       "description": "Rojos y rosados para el 14 de febrero. Ejemplo: reemplázalo por tu modelo real.",
-      "price": null,
+      "includes": [
+        "Flores de limpiapipas hechas a mano",
+        "Envoltura y listón"
+      ],
       "image": "assets/images/ramo-sanvalentin.svg",
       "categories": [
         "Para ella",
         "Temáticos"
       ],
-      "theme": "San Valentín",
       "seasons": [
         "san-valentin"
       ],
+      "flowers": [
+        "Rosas"
+      ],
+      "theme": "San Valentín",
       "quantities": [
         6,
         9,
@@ -274,14 +262,31 @@
       "allowPlush": true,
       "allowCard": true,
       "featured": false,
-      "available": true,
-      "flowers": [
-        "Rosas"
-      ],
+      "available": true
+    },
+    {
+      "id": "Lirios-hallowen",
+      "name": "Demogorgon / Carnívoras",
+      "description": "Ramo de temática Halloween hecho a mano con limpiapipas, estilo gótico y tétrico",
       "includes": [
-        "Flores de limpiapipas hechas a mano",
-        "Envoltura y listón"
-      ]
+        "2 flores estilo Demogorgon con dientes puntiagudos.",
+        " 2 Anturios de terciopelo en tonos rojo oscuro/vino",
+        "Tallos rizados, zarcillos y enredaderas grises y marrones",
+        "Envoltura temática y lazo decorativo"
+      ],
+      "image": "assets/images/halowen.jpg",
+      "categories": [
+        "Temáticos"
+      ],
+      "seasons": [
+        "halloween"
+      ],
+      "theme": "terror",
+      "allowLed": true,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": true,
+      "available": true
     }
   ]
 }
