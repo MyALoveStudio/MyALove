@@ -102,6 +102,9 @@
         "Lirios",
         "Margaritas"
       ],
+      "quantities": [
+        4
+      ],
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -264,6 +267,9 @@
       "flowers": [
         "Lirios"
       ],
+      "quantities": [
+        1
+      ],
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -287,6 +293,9 @@
       ],
       "flowers": [
         "Flor de loto"
+      ],
+      "quantities": [
+        4
       ],
       "allowLed": false,
       "allowPlush": false,
