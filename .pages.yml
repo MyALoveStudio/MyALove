@@ -1,0 +1,87 @@
+# Configuración del panel Pages CMS (https://app.pagescms.org)
+media:
+  - name: images
+    label: "Fotos"
+    input: assets/images
+    output: assets/images
+    categories: [image]
+
+content:
+  - name: products
+    label: "Mis ramos"
+    type: file
+    path: data/products.json
+    fields:
+      - name: products
+        label: "Ramos"
+        type: object
+        list: true
+        fields:
+          - { name: id, label: "Código único (sin espacios, ej. rosa-gold)", type: string }
+          - { name: name, label: "Nombre", type: string }
+          - { name: description, label: "Descripción corta", type: text }
+          - { name: includes, label: "¿Qué incluye? (agrega un elemento por cada cosa)", type: string, list: true }
+          - { name: price, label: "Precio (déjalo vacío si aún no lo defines)", type: number }
+          - { name: image, label: "Foto principal", type: image }
+          - name: categories
+            label: "Categorías (puedes marcar varias)"
+            type: select
+            options:
+              multiple: true
+              values: ["Para ella", "Para él", "Flor individual", "Ramos de 2 a 3 flores", "Ramos mixtos", "Con luces LED", "Con peluche", "Temáticos"]
+          - name: seasons
+            label: "Temática del mes a la que pertenece (opcional)"
+            type: select
+            options:
+              multiple: true
+              values: ["san-valentin", "dia-de-la-madre", "dia-del-padre", "halloween", "navidad"]
+          - name: flowers
+            label: "Tipos de flor que lleva (puedes marcar varios)"
+            type: select
+            options:
+              multiple: true
+              values: ["Rosas", "Tulipanes", "Girasoles", "Gerberas", "Lirios", "Flor de loto", "Margaritas", "Claveles", "Hortensias", "Orquídeas", "Peonías"]
+          - { name: theme, label: "Tema (opcional, ej. Princesas, Anime)", type: string }
+          - { name: quantities, label: "Cantidades de flores que ofreces", type: number, list: true }
+          - { name: allowLed, label: "Permite luces LED", type: boolean }
+          - { name: allowPlush, label: "Permite peluche", type: boolean }
+          - { name: allowCard, label: "Permite tarjeta", type: boolean }
+          - { name: featured, label: "Mostrar en «Ramos destacados» (máx. 3)", type: boolean }
+          - { name: available, label: "Disponible", type: boolean }
+
+  - name: temporada
+    label: "Temática del mes"
+    type: file
+    path: data/temporada.json
+    fields:
+      - name: activa
+        label: "Temática activa («auto» la cambia sola según las fechas; «ninguna» la apaga)"
+        type: select
+        options:
+          values: ["auto", "ninguna", "san-valentin", "dia-de-la-madre", "dia-del-padre", "halloween", "navidad"]
+      - name: temporadas
+        label: "Temáticas"
+        type: object
+        list: true
+        fields:
+          - { name: id, label: "Código (no lo cambies)", type: string }
+          - { name: nombre, label: "Nombre", type: string }
+          - { name: emoji, label: "Emoji del aviso", type: string }
+          - { name: banner, label: "Aviso en la barra superior", type: string }
+          - { name: eyebrow, label: "Etiqueta sobre el título de la portada", type: string }
+          - { name: titulo, label: "Título de la sección de la temática", type: string }
+          - { name: descripcion, label: "Descripción de la sección", type: text }
+          - { name: desde, label: "Empieza (mes-día, ej. 10-15)", type: string }
+          - { name: hasta, label: "Termina (mes-día, ej. 10-31)", type: string }
+          - { name: color, label: "Color de botones", type: color }
+          - { name: colorSuave, label: "Color de acentos", type: color }
+          - { name: rosa, label: "Color suave 1", type: color }
+          - { name: rosa2, label: "Color suave 2", type: color }
+          - { name: fondo, label: "Color de fondo", type: color }
+          - { name: heroA, label: "Fondo portada (arriba)", type: color }
+          - { name: heroB, label: "Fondo portada (abajo)", type: color }
+          - { name: blob1, label: "Forma detrás del ramo 1", type: color }
+          - { name: blob2, label: "Forma detrás del ramo 2", type: color }
+          - { name: footer, label: "Color del pie de página", type: color }
+          - { name: textoTitulo, label: "Color de títulos", type: color }
+          - { name: imagenHero, label: "Ramo de la portada para esta temática (opcional)", type: image }
