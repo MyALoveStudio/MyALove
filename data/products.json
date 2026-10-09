@@ -391,6 +391,31 @@
       "allowCard": true,
       "featured": false,
       "available": true
+    },
+    {
+      "id": "Ramo-Lirios-Blanco-Rosa",
+      "name": "Ramo de Lirios Blancos con Bordes Rosas",
+      "description": "Elegante ramo artesanal de limpiapipas con lirios blancos delineados en rosa y flores secundarias en tonos pastel.",
+      "includes": [
+        "2 lirios grandes de limpiapipas blancos con bordes rosados y estambres marrones",
+        "Racimos de flores pequeñas tipo jacinto/hortensia y brotes verdes",
+        "Tarjeta de carta",
+        "Envoltura coreana en tonos blanco y rosa con lazo decorativo semitransparente"
+      ],
+      "price": 40,
+      "image": "assets/images/liiiool.png",
+      "categories": [
+        "Para ella",
+        "Ramos de 2 a 3 flores"
+      ],
+      "flowers": [
+        "Lirios"
+      ],
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
     }
   ]
 }
