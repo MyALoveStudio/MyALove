@@ -349,6 +349,31 @@
       "allowCard": true,
       "featured": false,
       "available": true
+    },
+    {
+      "id": "Mini-Ramo-Lirio-Cumpleanos",
+      "name": "Mini Ramo de Lirio Rosa con Tarjeta Flork",
+      "description": "Mini ramo artesanal de limpiapipas con un lirio rosa y una tarjeta divertida de felicitación",
+      "includes": [
+        "1 lirio rosa de limpiapipas con estambres detallados",
+        "Ramita verde con hojas y mini flor blanca",
+        "Tarjeta decorativa estilo Flork de \"Happy Birthday\" con pastel (opcion a escoger otra)",
+        "Envoltura blanca y lazo de satén color crema"
+      ],
+      "price": 12,
+      "image": "assets/images/iiio-removebg-preview.png",
+      "categories": [
+        "Para ella",
+        "Flor individual"
+      ],
+      "flowers": [
+        "Lirios"
+      ],
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": false
     }
   ]
 }
