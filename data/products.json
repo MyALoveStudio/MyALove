@@ -1,81 +1,57 @@
 {
   "products": [
     {
-      "id": "Lirios-hallowen",
-      "name": "Demogorgon / Carnívoras",
-      "description": "Ramo de temática Halloween hecho a mano con limpiapipas, estilo gótico y tétrico",
+      "id": "Mini-Ramo-Lirio-Cumpleanos",
+      "name": "Minis",
+      "description": "Mini ramo artesanal de limpiapipas con un lirio rosa y una tarjeta divertida de felicitación",
       "includes": [
-        "2 flores estilo Demogorgon con dientes puntiagudos.",
-        " 2 Anturios de terciopelo en tonos rojo oscuro/vino",
-        "Tallos rizados, zarcillos y enredaderas grises y marrones",
-        "Envoltura temática y lazo decorativo"
+        "1 lirio rosa de limpiapipas con estambres detallados",
+        "Ramita verde con hojas y mini flor blanca",
+        "Tarjeta decorativa estilo Flork de \"Happy Birthday\" con pastel (opcion a escoger otra)",
+        "Envoltura blanca y lazo de satén color crema"
       ],
-      "price": 85,
-      "image": "assets/images/Gothic Carnivorous Flower Bouquet.png",
+      "price": 7,
+      "image": "assets/images/iiio-removebg-preview.png",
       "categories": [
-        "Temáticos"
+        "Para ella",
+        "Flor individual"
       ],
-      "seasons": [
-        "halloween"
+      "flowers": [
+        "Lirios"
       ],
-      "theme": "terror",
+      "quantities": [
+        1
+      ],
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
-      "featured": false,
+      "featured": true,
       "available": true
     },
     {
-      "id": "Ramo-Fantasmas-Halloween",
-      "name": "Ramo Fantasmas",
-      "description": "Ramo artesanal de limpiapipas con temática de Halloween, estilo tierno con fantasmas y margaritas.",
+      "id": "Ramo-Lirios-Tulipanes-Morados",
+      "name": "Ramo de Lirios y Tulipanes Morados",
+      "description": "Hermoso ramo artesanal de limpiapipas con lirios, capullos tipo tulipán y flores en tonos lila y morado",
       "includes": [
-        "3 fantasmas blancos de limpiapipas",
-        "Margaritas de limpiapipas en colores blanco, negro y lila",
-        "Murciélagos negros y estrellas decorativas",
-        "Envoltura de papel morado con lazo negro"
+        "3 lirios morados de limpiapipas con estambres detallados",
+        "3 capullos cerrados tipo tulipán en tonos morados",
+        "Mini flores decorativas rosadas y ramitas verdes con brotes",
+        "Envoltura coreana translúcida con bordes blancos, lila y lazo morado"
       ],
-      "price": 80,
-      "image": "assets/images/Lavender Halloween Ghost Bouquet.png",
+      "price": 40,
+      "image": "assets/images/lio-removebg-preview.png",
       "categories": [
-        "Temáticos"
-      ],
-      "seasons": [
-        "halloween"
+        "Para ella",
+        "Ramos de 2 a 3 flores",
+        "Ramos mixtos"
       ],
       "flowers": [
-        "Margaritas"
+        "Lirios",
+        "Tulipanes"
       ],
-      "theme": "terror",
-      "allowLed": false,
-      "allowPlush": false,
-      "allowCard": true,
-      "featured": false,
-      "available": true
-    },
-    {
-      "id": "Ramo-Jack-Skellington",
-      "name": "Ramo Jack Skellington y Girasoles",
-      "description": "Ramo artesanal de limpiapipas inspirado en Jack Skellington con girasoles y detalles temáticos.",
-      "includes": [
-        "1 figura de la cabeza y corbata de Jack Skellington",
-        "1 perrito fantasma Zero",
-        "Girasoles de limpiapipas en tonos amarillos y naranjas",
-        "Envoltura de papel en tonos claros con lazo negro y tarjetita"
+      "quantities": [
+        6
       ],
-      "price": 75,
-      "image": "assets/images/20fb5d8745e70f3e42693173ed69de97-removebg-preview.png",
-      "categories": [
-        "Para él",
-        "Temáticos"
-      ],
-      "seasons": [
-        "halloween"
-      ],
-      "flowers": [
-        "Girasoles"
-      ],
-      "theme": "terror",
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -105,6 +81,34 @@
       "quantities": [
         4
       ],
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": true,
+      "available": true
+    },
+    {
+      "id": "Ramo-Fantasmas-Halloween",
+      "name": "Ramo Fantasmas",
+      "description": "Ramo artesanal de limpiapipas con temática de Halloween, estilo tierno con fantasmas y margaritas.",
+      "includes": [
+        "3 fantasmas blancos de limpiapipas",
+        "Margaritas de limpiapipas en colores blanco, negro y lila",
+        "Murciélagos negros y estrellas decorativas",
+        "Envoltura de papel morado con lazo negro"
+      ],
+      "price": 80,
+      "image": "assets/images/Lavender Halloween Ghost Bouquet.png",
+      "categories": [
+        "Temáticos"
+      ],
+      "seasons": [
+        "halloween"
+      ],
+      "flowers": [
+        "Margaritas"
+      ],
+      "theme": "terror",
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -190,36 +194,6 @@
       "available": true
     },
     {
-      "id": "Ramo-Lirios-Tulipanes-Morados",
-      "name": "Ramo de Lirios y Tulipanes Morados",
-      "description": "Hermoso ramo artesanal de limpiapipas con lirios, capullos tipo tulipán y flores en tonos lila y morado",
-      "includes": [
-        "3 lirios morados de limpiapipas con estambres detallados",
-        "3 capullos cerrados tipo tulipán en tonos morados",
-        "Mini flores decorativas rosadas y ramitas verdes con brotes",
-        "Envoltura coreana translúcida con bordes blancos, lila y lazo morado"
-      ],
-      "price": 40,
-      "image": "assets/images/lio-removebg-preview.png",
-      "categories": [
-        "Para ella",
-        "Ramos de 2 a 3 flores",
-        "Ramos mixtos"
-      ],
-      "flowers": [
-        "Lirios",
-        "Tulipanes"
-      ],
-      "quantities": [
-        6
-      ],
-      "allowLed": false,
-      "allowPlush": false,
-      "allowCard": true,
-      "featured": false,
-      "available": true
-    },
-    {
       "id": "Ramo-Princesa-Rapunzel",
       "name": "Ramo Temática Princesa",
       "description": "Ramo artesanal de limpiapipas inspirado en Rapunzel, incluye la figura de Pascal y flores en tonos amarillo y lila",
@@ -249,31 +223,32 @@
       "available": true
     },
     {
-      "id": "Mini-Ramo-Lirio-Cumpleanos",
-      "name": "Minis",
-      "description": "Mini ramo artesanal de limpiapipas con un lirio rosa y una tarjeta divertida de felicitación",
+      "id": "Ramo-Jack-Skellington",
+      "name": "Ramo Jack Skellington y Girasoles",
+      "description": "Ramo artesanal de limpiapipas inspirado en Jack Skellington con girasoles y detalles temáticos.",
       "includes": [
-        "1 lirio rosa de limpiapipas con estambres detallados",
-        "Ramita verde con hojas y mini flor blanca",
-        "Tarjeta decorativa estilo Flork de \"Happy Birthday\" con pastel (opcion a escoger otra)",
-        "Envoltura blanca y lazo de satén color crema"
+        "1 figura de la cabeza y corbata de Jack Skellington",
+        "1 perrito fantasma Zero",
+        "Girasoles de limpiapipas en tonos amarillos y naranjas",
+        "Envoltura de papel en tonos claros con lazo negro y tarjetita"
       ],
-      "price": 7,
-      "image": "assets/images/iiio-removebg-preview.png",
+      "price": 75,
+      "image": "assets/images/20fb5d8745e70f3e42693173ed69de97-removebg-preview.png",
       "categories": [
-        "Para ella",
-        "Flor individual"
+        "Para él",
+        "Temáticos"
+      ],
+      "seasons": [
+        "halloween"
       ],
       "flowers": [
-        "Lirios"
+        "Girasoles"
       ],
-      "quantities": [
-        1
-      ],
+      "theme": "terror",
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
-      "featured": true,
+      "featured": false,
       "available": true
     },
     {
@@ -327,6 +302,31 @@
         "Lirios"
       ],
       "theme": "princesas",
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "Lirios-hallowen",
+      "name": "Demogorgon / Carnívoras",
+      "description": "Ramo de temática Halloween hecho a mano con limpiapipas, estilo gótico y tétrico",
+      "includes": [
+        "2 flores estilo Demogorgon con dientes puntiagudos.",
+        " 2 Anturios de terciopelo en tonos rojo oscuro/vino",
+        "Tallos rizados, zarcillos y enredaderas grises y marrones",
+        "Envoltura temática y lazo decorativo"
+      ],
+      "price": 85,
+      "image": "assets/images/Gothic Carnivorous Flower Bouquet.png",
+      "categories": [
+        "Temáticos"
+      ],
+      "seasons": [
+        "halloween"
+      ],
+      "theme": "terror",
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
