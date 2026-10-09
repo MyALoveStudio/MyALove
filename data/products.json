@@ -253,7 +253,7 @@
         "halloween"
       ],
       "theme": "terror",
-      "allowLed": true,
+      "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
       "featured": true,
@@ -281,7 +281,7 @@
         "Margaritas"
       ],
       "theme": "terror",
-      "allowLed": true,
+      "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
       "featured": true,
@@ -314,6 +314,57 @@
       "allowPlush": false,
       "allowCard": true,
       "featured": true,
+      "available": true
+    },
+    {
+      "id": "Lirio-Rosa-Elegante",
+      "name": "Ramo de Lirio Rosa Artesanal",
+      "description": "Delicado ramo artesanal de limpiapipas con un lirio rosa principal y margaritas de acompañamiento",
+      "includes": [
+        "1 lirio rosa grande de limpiapipas con estambres detallados",
+        "3 mini margaritas blancas con centro amarillo",
+        "Hojas verdes y capullos en tallos",
+        "Envoltura coreana rosa con bordes dorados y lazo blanco traslúcido"
+      ],
+      "price": 12,
+      "image": "assets/images/WhatsApp_Image_2026-10-08_at_7.09.30_PM-removebg-preview.png",
+      "categories": [
+        "Para ella",
+        "Flor individual"
+      ],
+      "flowers": [
+        "Lirios",
+        "Margaritas"
+      ],
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "Ramo-Lirios-Elegante",
+      "name": "Ramo de Lirios Rosas Combinados",
+      "description": "Hermoso ramo de limpiapipas con lirios en tonos rosas y blancos, con malla decorativa.",
+      "includes": [
+        "3 lirios de limpiapipas (combinación rosa y blanco/rosa)",
+        "Ramas verdes decorativas con brotes",
+        "Malla blanca de red estilo vintage",
+        "Envoltura coreana rosa con tul plisado perlado y lazo"
+      ],
+      "price": 25,
+      "image": "assets/images/liliii.png",
+      "categories": [
+        "Para ella",
+        "Ramos de 2 a 3 flores"
+      ],
+      "flowers": [
+        "Lirios"
+      ],
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
       "available": true
     }
   ]
