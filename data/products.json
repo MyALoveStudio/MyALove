@@ -352,8 +352,33 @@
         "Malla blanca de red estilo vintage",
         "Envoltura coreana rosa con tul plisado perlado y lazo"
       ],
-      "price": 25,
+      "price": 30,
       "image": "assets/images/liliii.png",
+      "categories": [
+        "Para ella",
+        "Ramos de 2 a 3 flores"
+      ],
+      "flowers": [
+        "Lirios"
+      ],
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "Ramo-Lirios-Morados",
+      "name": "Ramo de Lirios y Capullo Morado",
+      "description": "Elegante ramo artesanal de limpiapipas en tonos morados y lilas con lirios y capullo cerrado.",
+      "includes": [
+        "2 lirios grandes de limpiapipas en tonos lila y morado",
+        "1 capullo de flor cerrado y 1 espiga decorativa trenzada",
+        "Mini flores secundarias, ramitas con brotes y follaje verde",
+        "Envoltura coreana lila con bordes blancos y lazo decorativo"
+      ],
+      "price": 40,
+      "image": "assets/images/lili-removebg-preview.png",
       "categories": [
         "Para ella",
         "Ramos de 2 a 3 flores"
