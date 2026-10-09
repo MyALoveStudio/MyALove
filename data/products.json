@@ -204,6 +204,9 @@
         "Lirios",
         "Tulipanes"
       ],
+      "quantities": [
+        6
+      ],
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -230,6 +233,9 @@
         "Lirios"
       ],
       "theme": "princesas",
+      "quantities": [
+        1
+      ],
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -336,6 +342,9 @@
         "Lirios"
       ],
       "theme": "Anime",
+      "quantities": [
+        2
+      ],
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
