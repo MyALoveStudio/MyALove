@@ -21,8 +21,7 @@
       "blob1": "#FFB9C4",
       "blob2": "#FF9DAE",
       "footer": "#9B2A44",
-      "textoTitulo": "#7A1F33",
-      "imagenHero": ""
+      "textoTitulo": "#7A1F33"
     },
     {
       "id": "dia-de-la-madre",
@@ -44,8 +43,7 @@
       "blob1": "#F5CCE3",
       "blob2": "#EFB8D6",
       "footer": "#8E4B73",
-      "textoTitulo": "#7A3A5E",
-      "imagenHero": ""
+      "textoTitulo": "#7A3A5E"
     },
     {
       "id": "dia-del-padre",
@@ -67,8 +65,7 @@
       "blob1": "#BCD6F2",
       "blob2": "#9EC2EB",
       "footer": "#2E4A74",
-      "textoTitulo": "#26456E",
-      "imagenHero": ""
+      "textoTitulo": "#26456E"
     },
     {
       "id": "halloween",
@@ -91,7 +88,7 @@
       "blob2": "#FFC58C",
       "footer": "#7A3E12",
       "textoTitulo": "#6B3A12",
-      "imagenHero": ""
+      "imagenHero": "assets/images/1c759a520bbda584e7fce19adfe1bcb0.jpg"
     },
     {
       "id": "navidad",
@@ -113,8 +110,7 @@
       "blob1": "#F7C9C6",
       "blob2": "#EFA9A6",
       "footer": "#2F6B4F",
-      "textoTitulo": "#6E2A2E",
-      "imagenHero": ""
+      "textoTitulo": "#6E2A2E"
     }
   ]
 }
