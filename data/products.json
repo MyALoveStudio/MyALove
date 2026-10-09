@@ -258,8 +258,8 @@
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
-      "featured": false,
-      "available": false
+      "featured": true,
+      "available": true
     },
     {
       "id": "Ramo-Loto-Vintage",
@@ -282,8 +282,8 @@
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
-      "featured": false,
-      "available": false
+      "featured": true,
+      "available": true
     }
   ]
 }
