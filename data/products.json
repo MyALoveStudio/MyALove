@@ -416,6 +416,33 @@
       "allowCard": true,
       "featured": false,
       "available": true
+    },
+    {
+      "id": "Ramo-Lirios-Tulipanes-Morados",
+      "name": "Ramo de Lirios y Tulipanes Morados",
+      "description": "Hermoso ramo artesanal de limpiapipas con lirios, capullos tipo tulipán y flores en tonos lila y morado",
+      "includes": [
+        "3 lirios morados de limpiapipas con estambres detallados",
+        "3 capullos cerrados tipo tulipán en tonos morados",
+        "Mini flores decorativas rosadas y ramitas verdes con brotes",
+        "Envoltura coreana translúcida con bordes blancos, lila y lazo morado"
+      ],
+      "price": 40,
+      "image": "assets/images/lio-removebg-preview.png",
+      "categories": [
+        "Para ella",
+        "Ramos de 2 a 3 flores",
+        "Ramos mixtos"
+      ],
+      "flowers": [
+        "Lirios",
+        "Tulipanes"
+      ],
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
     }
   ]
 }
