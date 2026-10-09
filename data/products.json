@@ -142,36 +142,6 @@
       "available": true
     },
     {
-      "id": "halloween",
-      "name": "Ramo Halloween (ejemplo)",
-      "description": "Naranja, morado y negro con luces para la temporada. Ejemplo: reemplázalo por tu modelo real.",
-      "includes": [
-        "Flores de limpiapipas hechas a mano",
-        "Envoltura y listón"
-      ],
-      "image": "assets/images/ramo-halloween.svg",
-      "categories": [
-        "Temáticos",
-        "Con luces LED"
-      ],
-      "seasons": [
-        "halloween"
-      ],
-      "flowers": [
-        "Rosas"
-      ],
-      "theme": "Halloween",
-      "quantities": [
-        9,
-        12
-      ],
-      "allowLed": true,
-      "allowPlush": false,
-      "allowCard": true,
-      "featured": false,
-      "available": true
-    },
-    {
       "id": "navidad",
       "name": "Ramo Navidad (ejemplo)",
       "description": "Rojo y blanco con luces cálidas para las fiestas. Ejemplo: reemplázalo por tu modelo real.",
@@ -274,7 +244,7 @@
         "Tallos rizados, zarcillos y enredaderas grises y marrones",
         "Envoltura temática y lazo decorativo"
       ],
-      "price": 65,
+      "price": 75,
       "image": "assets/images/Gothic Carnivorous Flower Bouquet.png",
       "categories": [
         "Temáticos"
@@ -299,7 +269,7 @@
         "Murciélagos negros y estrellas decorativas",
         "Envoltura de papel morado con lazo negro"
       ],
-      "price": 75,
+      "price": 80,
       "image": "assets/images/Lavender Halloween Ghost Bouquet.png",
       "categories": [
         "Temáticos"
@@ -311,14 +281,40 @@
         "Margaritas"
       ],
       "theme": "terror",
-      "quantities": [
-        4
-      ],
       "allowLed": true,
       "allowPlush": false,
       "allowCard": true,
       "featured": true,
       "available": true
+    },
+    {
+      "id": "Ramo-Jack-Skellington",
+      "name": "Ramo Jack Skellington y Girasoles",
+      "description": "Ramo artesanal de limpiapipas inspirado en Jack Skellington con girasoles y detalles temáticos.",
+      "includes": [
+        "1 figura de la cabeza y corbata de Jack Skellington",
+        "1 perrito fantasma Zero",
+        "Girasoles de limpiapipas en tonos amarillos y naranjas",
+        "Envoltura de papel en tonos claros con lazo negro y tarjetita"
+      ],
+      "price": 95,
+      "image": "assets/images/20fb5d8745e70f3e42693173ed69de97-removebg-preview.png",
+      "categories": [
+        "Para él",
+        "Temáticos"
+      ],
+      "seasons": [
+        "halloween"
+      ],
+      "flowers": [
+        "Girasoles"
+      ],
+      "theme": "terror",
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": false
     }
   ]
 }
