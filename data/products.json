@@ -38,7 +38,7 @@
         "Mini flores decorativas rosadas y ramitas verdes con brotes",
         "Envoltura coreana translúcida con bordes blancos, lila y lazo morado"
       ],
-      "price": 40,
+      "price": 35,
       "image": "assets/images/lio-removebg-preview.png",
       "categories": [
         "Para ella",
@@ -68,7 +68,7 @@
         "Hojas verdes y capullos en tallos",
         "Envoltura coreana rosa con bordes dorados y lazo blanco traslúcido"
       ],
-      "price": 9,
+      "price": 7,
       "image": "assets/images/WhatsApp_Image_2026-10-08_at_7.09.30_PM-removebg-preview.png",
       "categories": [
         "Para ella",
@@ -84,7 +84,7 @@
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
-      "featured": true,
+      "featured": false,
       "available": true
     },
     {
@@ -97,7 +97,7 @@
         "Murciélagos negros y estrellas decorativas",
         "Envoltura de papel morado con lazo negro"
       ],
-      "price": 80,
+      "price": 67,
       "image": "assets/images/Lavender Halloween Ghost Bouquet.png",
       "categories": [
         "Temáticos"
@@ -125,7 +125,7 @@
         "Malla blanca de red estilo vintage",
         "Envoltura coreana rosa con tul plisado perlado y lazo"
       ],
-      "price": 30,
+      "price": 20,
       "image": "assets/images/liliii.png",
       "categories": [
         "Para ella",
@@ -150,7 +150,7 @@
         "Mini flores secundarias, ramitas con brotes y follaje verde",
         "Envoltura coreana lila con bordes blancos y lazo decorativo"
       ],
-      "price": 40,
+      "price": 35,
       "image": "assets/images/lili-removebg-preview.png",
       "categories": [
         "Para ella",
@@ -175,7 +175,7 @@
         "Tarjeta de carta",
         "Envoltura coreana en tonos blanco y rosa con lazo decorativo semitransparente"
       ],
-      "price": 40,
+      "price": 38,
       "image": "assets/images/liiiool.png",
       "categories": [
         "Para ella",
@@ -373,7 +373,7 @@
         "1 lirio azul claro central y mini flores blancas de acompañamiento",
         "Envoltura blanca coreana con detalles tornasolados y lazo translúcido"
       ],
-      "price": 59,
+      "price": 45,
       "image": "assets/images/gojo-Photoroom-1.png",
       "categories": [
         "Temáticos",
