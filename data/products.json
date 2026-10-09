@@ -288,6 +288,37 @@
       "allowCard": true,
       "featured": true,
       "available": true
+    },
+    {
+      "id": "Ramo-Fantasmas-Halloween",
+      "name": "Ramo Fantasmas y Margaritas de Halloween",
+      "description": "Ramo artesanal de limpiapipas con temática de Halloween, estilo tierno con fantasmas y margaritas.",
+      "includes": [
+        "3 fantasmas blancos de limpiapipas",
+        "Margaritas de limpiapipas en colores blanco, negro y lila",
+        "Murciélagos negros y estrellas decorativas",
+        "Envoltura de papel morado con lazo negro"
+      ],
+      "price": 75,
+      "image": "assets/images/ramo-FANTASMAS.jpg",
+      "categories": [
+        "Temáticos"
+      ],
+      "seasons": [
+        "halloween"
+      ],
+      "flowers": [
+        "Margaritas"
+      ],
+      "theme": "terror",
+      "quantities": [
+        4
+      ],
+      "allowLed": true,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": true,
+      "available": true
     }
   ]
 }
