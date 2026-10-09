@@ -99,15 +99,15 @@
     toast("Abriendo WhatsApp. Copiamos tu mensaje por si lo necesitas pegar.");
   }
   function buildMessage(d) {
-    var L = ["Hola, MyALove. 💗 Quisiera consultar por este ramo:", ""];
-    L.push("* Modelo: " + d.model);
-    if (d.colors) L.push("* Colores: " + d.colors);
-    if (d.qty) L.push("* Cantidad: " + d.qty + " flores");
-    if (d.led != null) L.push("* Luces LED: " + (d.led ? "sí" : "no"));
-    if (d.plush != null) L.push("* Peluche: " + (d.plush ? "sí" : "no"));
-    if (d.card != null) L.push("* Tarjeta: " + (d.card ? "sí" : "no"));
-    if (d.note) L.push("* Dedicatoria: " + d.note);
-    if (d.date) L.push("* Fecha deseada: " + d.date);
+    var L = ["Hola, MyALove. Quisiera consultar por este ramo:"];
+    L.push("- Modelo: " + d.model);
+    if (d.colors) L.push("- Colores: " + d.colors);
+    if (d.qty) L.push("- Cantidad: " + d.qty + " flores");
+    if (d.led != null) L.push("- Luces LED: " + (d.led ? "sí" : "no"));
+    if (d.plush != null) L.push("- Peluche: " + (d.plush ? "sí" : "no"));
+    if (d.card != null) L.push("- Tarjeta: " + (d.card ? "sí" : "no"));
+    if (d.note) L.push("- Dedicatoria: " + d.note);
+    if (d.date) L.push("- Fecha deseada: " + d.date);
     L.push("", "¿Podrían confirmarme el precio final y la disponibilidad?");
     return L.join("\n");
   }
@@ -405,7 +405,7 @@
   $("#hdrIg").href = CFG.social.instagram;
   var catUrl = CFG.catalogUrl || CFG.catalogPdfUrl;
   if (catUrl) { $("#pdfView").href = catUrl; }
-  $("#footerWa").addEventListener("click", function () { openWa("Hola, MyALove. 💗 Quisiera hacer una consulta."); });
+  $("#footerWa").addEventListener("click", function () { openWa("Hola, MyALove. Quisiera hacer una consulta."); });
 
   /* ---------- fotos en 3D: las tarjetas se inclinan con el cursor ---------- */
   function enableTilt(root) {
