@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo completo · MyALove</title>
+  <link rel="icon" href="assets/icons/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Great+Vibes&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root{--pink:#FFD6D8;--pink2:#F7B9C2;--coral:#E8587F;--brown:#7A4852;--text:#79545B;--bg:#FFF1EC}
+    *{box-sizing:border-box;margin:0}
+    @page{size:A4;margin:12mm}
+    body{font-family:'Comfortaa',system-ui,sans-serif;color:var(--text);background:var(--bg);line-height:1.5;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .bar{position:sticky;top:0;z-index:5;display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap;padding:.8rem;background:#fff;box-shadow:0 6px 18px -12px rgba(0,0,0,.3)}
+    .bar a,.bar button{min-height:44px;padding:.5rem 1.4rem;border-radius:999px;border:1.5px solid var(--coral);background:var(--coral);color:#fff;font:700 .85rem 'Comfortaa',sans-serif;text-decoration:none;cursor:pointer;display:inline-flex;align-items:center}
+    .bar a.ghost{background:#fff;color:var(--coral)}
+    .doc{max-width:900px;margin:0 auto;padding:1.5rem}
+    .cover{text-align:center;padding:1.5rem 0 1rem}
+    .cover img{width:150px;margin:0 auto}
+    .cover h1{font-family:'Playfair Display',serif;font-weight:400;font-size:2.4rem;color:#CC5F6E;margin-top:.4rem}
+    .cover p{font-family:'Great Vibes',cursive;font-size:1.7rem;color:var(--coral)}
+    .cover small{display:block;font-size:.75rem;margin-top:.4rem}
+    h2{font-family:'Playfair Display',serif;font-weight:500;font-size:1.5rem;color:var(--brown);margin:1.6rem 0 .8rem;padding-bottom:.4rem;border-bottom:2px solid var(--pink2);break-after:avoid}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+    .item{background:#fff;border-radius:16px;overflow:hidden;break-inside:avoid;border:1px solid var(--pink)}
+    .item__img{background:linear-gradient(180deg,#F7A9B0,#FFD6D8 60%,#FFE9E3);aspect-ratio:1;display:grid;place-items:end center;padding:8% 8% 0}
+    .item__img img{width:100%;height:100%;object-fit:contain}
+    .item__body{padding:.7rem .8rem .9rem;display:grid;gap:.25rem}
+    .item h3{font-family:'Playfair Display',serif;font-weight:500;font-size:1.02rem;color:var(--brown);line-height:1.2}
+    .item p{font-size:.72rem;line-height:1.45}
+    .incl{font-size:.66rem!important;line-height:1.4;color:var(--brown)}
+    .tags{display:flex;flex-wrap:wrap;gap:.25rem;list-style:none;padding:0}
+    .tags li{font-size:.6rem;border:1px solid var(--pink2);border-radius:999px;padding:.05rem .5rem}
+    .price{font-weight:700;color:var(--coral);font-size:.82rem}
+    .foot{margin-top:2rem;padding-top:1rem;border-top:2px solid var(--pink2);text-align:center;font-size:.78rem}
+    .empty{text-align:center;padding:2rem}
+    .filters-bar{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;margin:.6rem 0 .4rem}
+    .filters-bar label{display:block;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--brown);margin-bottom:.25rem}
+    .filters-bar select{min-height:46px;min-width:220px;padding:.5rem .9rem;border:1.5px solid var(--pink2);border-radius:12px;background:#fff;font:inherit;font-size:.85rem;color:var(--text)}
+    .count{text-align:center;font-size:.75rem;margin-bottom:.4rem}
+    .toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--brown);color:#fff;padding:.7rem 1.2rem;border-radius:12px;font-size:.82rem;opacity:0;transition:opacity .3s;pointer-events:none}
+    .toast.show{opacity:1}
+    @media (max-width:700px){.grid{grid-template-columns:repeat(2,1fr)}}
+    @media print{body{background:#fff}.bar,.filters-bar{display:none}.doc{padding:0;max-width:none}.grid{grid-template-columns:repeat(3,1fr)}.cover{break-after:avoid}}
+  </style>
+</head>
+<body>
+  <div class="bar">
+    <a href="index.html#catalogo">← Volver a la web</a>
+    <button type="button" id="btnCopy">Copiar enlace</button>
+  </div>
+  <main class="doc" id="doc">
+    <header class="cover">
+      <img src="assets/images/logo-ma.webp" alt="Logotipo de MyALove" width="700" height="587">
+      <h1>MyALove</h1>
+      <p>Detalles que florecen para siempre</p>
+      <small>Catálogo completo de ramos artesanales de limpiapipas · Solo bajo pedido · Precios finales confirmados por WhatsApp</small>
+    </header>
+    <div class="filters-bar" id="filtersBar">
+      <div><label for="selCat">Categoría</label><select id="selCat"></select></div>
+      <div><label for="selFlor">Tipo de flor</label><select id="selFlor"></select></div>
+    </div>
+    <p class="count" id="count" role="status"></p>
+    <div id="content"><p class="empty">Cargando catálogo…</p></div>
+    <footer class="foot" id="foot"></footer>
+    <div class="toast" id="toast" role="status"></div>
+  </main>
+  <script src="js/config.js"></script>
+  <script>
+  (function () {
+    var CFG = window.MYALOVE || {};
+    var $ = function (s) { return document.querySelector(s); };
+    function el(t, a, x) { var e = document.createElement(t); for (var k in (a || {})) e.setAttribute(k, a[k]); if (x != null) e.textContent = x; return e; }
+    function money(n) { return CFG.currency + " " + Number(n).toFixed(2).replace(/\.00$/, ""); }
+
+    var foot = $("#foot");
+    foot.appendChild(el("p", {}, "Para pedir: elige tu ramo y escríbenos por WhatsApp. Revisaremos disponibilidad y confirmaremos el precio final."));
+    if (/^\d{8,15}$/.test(String(CFG.whatsappNumber || ""))) foot.appendChild(el("p", {}, "WhatsApp: +" + CFG.whatsappNumber));
+
+    var list = [], params = new URLSearchParams(location.search);
+    var sel = { cat: params.get("categoria") || "Todas", flor: params.get("flor") || "Todas" };
+
+    function opts(select, first, values, current) {
+      select.textContent = "";
+      [first].concat(values).forEach(function (v) { var o = el("option", { value: v }, v); if (v === current) o.selected = true; select.appendChild(o); });
+    }
+
+    function render() {
+      var box = $("#content"); box.textContent = "";
+      var shown = list.filter(function (p) {
+        return (sel.cat === "Todas" || (p.categories || []).indexOf(sel.cat) > -1) &&
+               (sel.flor === "Todas" || (p.flowers || []).indexOf(sel.flor) > -1);
+      });
+      $("#count").textContent = shown.length + (shown.length === 1 ? " ramo" : " ramos");
+      if (!shown.length) { box.appendChild(el("p", { "class": "empty" }, "Pronto tendremos ramos con ese filtro.")); return; }
+      var order = (CFG.categoryOrder || []).concat(["Otros"]), groups = {};
+      shown.forEach(function (p) {
+        var c = (sel.cat !== "Todas") ? sel.cat : ((p.categories && p.categories[0]) || "Otros");
+        (groups[c] = groups[c] || []).push(p);
+      });
+      Object.keys(groups).sort(function (a, b) { var i = order.indexOf(a), k = order.indexOf(b); return (i < 0 ? 98 : i) - (k < 0 ? 98 : k); }).forEach(function (cat) {
+        box.appendChild(el("h2", {}, cat));
+        var g = el("div", { "class": "grid" });
+        groups[cat].forEach(function (p) {
+          var it = el("article", { "class": "item" });
+          var im = el("div", { "class": "item__img" });
+          im.appendChild(el("img", { src: p.image, alt: p.name + ": ramo artesanal de flores de limpiapipas", loading: "lazy" }));
+          var b = el("div", { "class": "item__body" });
+          b.appendChild(el("h3", {}, p.name));
+          b.appendChild(el("p", {}, p.description));
+          if ((p.includes || []).length) b.appendChild(el("p", { "class": "incl" }, "Incluye: " + p.includes.join(" · ")));
+          var tg = el("ul", { "class": "tags" });
+          (p.flowers || []).forEach(function (f) { tg.appendChild(el("li", {}, f)); });
+          if (p.theme) tg.appendChild(el("li", {}, "Tema: " + p.theme));
+          if ((p.quantities || []).length) tg.appendChild(el("li", {}, p.quantities.join(" · ") + " flores"));
+          if (p.allowLed) tg.appendChild(el("li", {}, "Luces LED"));
+          if (p.allowPlush) tg.appendChild(el("li", {}, "Peluche"));
+          if (p.allowCard) tg.appendChild(el("li", {}, "Tarjeta"));
+          b.appendChild(tg);
+          b.appendChild(el("p", { "class": "price" }, (p.price == null || p.price === "") ? "Precio por consultar" : "Desde " + money(p.price)));
+          it.appendChild(im); it.appendChild(b); g.appendChild(it);
+        });
+        box.appendChild(g);
+      });
+    }
+
+    // La URL guarda el filtro: así puedes enviar por WhatsApp, por ejemplo, solo los ramos con girasoles
+    function syncUrl() {
+      var p = new URLSearchParams();
+      if (sel.cat !== "Todas") p.set("categoria", sel.cat);
+      if (sel.flor !== "Todas") p.set("flor", sel.flor);
+      try { history.replaceState(null, "", location.pathname + (p.toString() ? "?" + p.toString() : "")); } catch (e) {}
+    }
+
+    fetch("data/products.json").then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (j) {
+      list = (j.products || []).filter(function (p) { return p.available !== false; });
+      var cats = (CFG.categoryOrder || []).slice(), flores = (CFG.flowerOrder || []).slice();
+      list.forEach(function (p) {
+        (p.categories || []).forEach(function (c) { if (cats.indexOf(c) < 0) cats.push(c); });
+        (p.flowers || []).forEach(function (f) { if (flores.indexOf(f) < 0) flores.push(f); });
+      });
+      opts($("#selCat"), "Todas", cats, sel.cat); opts($("#selFlor"), "Todas", flores, sel.flor);
+      $("#selCat").addEventListener("change", function (e) { sel.cat = e.target.value; syncUrl(); render(); });
+      $("#selFlor").addEventListener("change", function (e) { sel.flor = e.target.value; syncUrl(); render(); });
+      render();
+    }).catch(function () {
+      $("#content").textContent = "No se pudo cargar el catálogo. Ábrelo desde la web publicada o con Live Server.";
+    });
+
+    // Copiar enlace
+    $("#btnCopy").addEventListener("click", function () {
+      var url = location.href, t = $("#toast");
+      function done(ok) { t.textContent = ok ? "Enlace copiado. Ya puedes pegarlo donde quieras." : "Copia el enlace desde la barra del navegador."; t.classList.add("show"); setTimeout(function () { t.classList.remove("show"); }, 3500); }
+      if (navigator.clipboard) navigator.clipboard.writeText(url).then(function () { done(true); }, function () { done(false); }); else done(false);
+    });
+  })();
+  </script>
+</body>
+</html>
