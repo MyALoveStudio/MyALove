@@ -284,6 +284,36 @@
       "allowCard": true,
       "featured": true,
       "available": true
+    },
+    {
+      "id": "Ramo-Princesa-Tiana",
+      "name": "Ramo Temática Princesa (Tiana y el Sapo)",
+      "description": "Ramo artesanal en tonos verdes y blancos inspirado en la princesa Tiana, con figuras decorativas de los personajes.",
+      "includes": [
+        "Siluetas decorativas de la Princesa Tiana y el sapo",
+        "1  gerbera blanca con centro verde de limpiapipa",
+        "1 lirio blanco de limpiapipa",
+        "Mini flores blancas y ramitas de follaje verde",
+        "Envoltura coreana verde con diseño y lazo blanco con texto"
+      ],
+      "price": 59,
+      "image": "assets/images/laprincesayelSapo-Photoroom.png",
+      "categories": [
+        "Temáticos",
+        "Para ella",
+        "Ramos de 2 a 3 flores",
+        "Ramos mixtos"
+      ],
+      "flowers": [
+        "Gerberas",
+        "Lirios"
+      ],
+      "theme": "princesas",
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
     }
   ]
 }
