@@ -260,6 +260,30 @@
       "allowCard": true,
       "featured": false,
       "available": false
+    },
+    {
+      "id": "Ramo-Loto-Vintage",
+      "name": "Ramo de Flores de Loto Artesanales",
+      "description": "Ramo artesanal de limpiapipas con flores de loto rosas, hojas acanaladas y envoltura estilo periódico antiguo.",
+      "includes": [
+        "3 flores de loto abiertas de limpiapipas en color rosa con estambres amarillos",
+        "1 capullo cerrado de loto y hojas verdes redondas texturizadas",
+        "Envoltura de papel kraft con diseño de caligrafía vintage y lazo blanco"
+      ],
+      "price": 50,
+      "image": "assets/images/loto-removebg-preview.png",
+      "categories": [
+        "Para ella",
+        "Ramos de 2 a 3 flores"
+      ],
+      "flowers": [
+        "Flor de loto"
+      ],
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": false
     }
   ]
 }
