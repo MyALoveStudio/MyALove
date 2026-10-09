@@ -115,126 +115,6 @@
       "available": true
     },
     {
-      "id": "azul",
-      "name": "Ramo Azul (ejemplo)",
-      "description": "Ramo en tonos azules y blancos, pensado para regalar a él. Ejemplo: reemplázalo por tu modelo real.",
-      "includes": [
-        "Flores de limpiapipas hechas a mano",
-        "Envoltura y listón"
-      ],
-      "image": "assets/images/ramo-azul.svg",
-      "categories": [
-        "Para él",
-        "Ramos mixtos"
-      ],
-      "flowers": [
-        "Rosas"
-      ],
-      "quantities": [
-        5,
-        7,
-        9
-      ],
-      "allowLed": false,
-      "allowPlush": false,
-      "allowCard": true,
-      "featured": false,
-      "available": true
-    },
-    {
-      "id": "navidad",
-      "name": "Ramo Navidad (ejemplo)",
-      "description": "Rojo y blanco con luces cálidas para las fiestas. Ejemplo: reemplázalo por tu modelo real.",
-      "includes": [
-        "Flores de limpiapipas hechas a mano",
-        "Envoltura y listón"
-      ],
-      "image": "assets/images/ramo-navidad.svg",
-      "categories": [
-        "Temáticos",
-        "Con luces LED"
-      ],
-      "seasons": [
-        "navidad"
-      ],
-      "flowers": [
-        "Rosas"
-      ],
-      "theme": "Navidad",
-      "quantities": [
-        9,
-        12,
-        15
-      ],
-      "allowLed": true,
-      "allowPlush": true,
-      "allowCard": true,
-      "featured": false,
-      "available": true
-    },
-    {
-      "id": "madre",
-      "name": "Ramo Mamá (ejemplo)",
-      "description": "Rosas y lilas suaves para el Día de la Madre. Ejemplo: reemplázalo por tu modelo real.",
-      "includes": [
-        "Flores de limpiapipas hechas a mano",
-        "Envoltura y listón"
-      ],
-      "image": "assets/images/ramo-madre.svg",
-      "categories": [
-        "Para ella",
-        "Temáticos"
-      ],
-      "seasons": [
-        "dia-de-la-madre"
-      ],
-      "flowers": [
-        "Rosas"
-      ],
-      "theme": "Día de la Madre",
-      "quantities": [
-        9,
-        12,
-        15
-      ],
-      "allowLed": false,
-      "allowPlush": true,
-      "allowCard": true,
-      "featured": false,
-      "available": true
-    },
-    {
-      "id": "sanvalentin",
-      "name": "Ramo San Valentín (ejemplo)",
-      "description": "Rojos y rosados para el 14 de febrero. Ejemplo: reemplázalo por tu modelo real.",
-      "includes": [
-        "Flores de limpiapipas hechas a mano",
-        "Envoltura y listón"
-      ],
-      "image": "assets/images/ramo-sanvalentin.svg",
-      "categories": [
-        "Para ella",
-        "Temáticos"
-      ],
-      "seasons": [
-        "san-valentin"
-      ],
-      "flowers": [
-        "Rosas"
-      ],
-      "theme": "San Valentín",
-      "quantities": [
-        6,
-        9,
-        12
-      ],
-      "allowLed": true,
-      "allowPlush": true,
-      "allowCard": true,
-      "featured": false,
-      "available": true
-    },
-    {
       "id": "Lirios-hallowen",
       "name": "Demogorgon / Carnívoras",
       "description": "Ramo de temática Halloween hecho a mano con limpiapipas, estilo gótico y tétrico",
@@ -438,6 +318,32 @@
         "Lirios",
         "Tulipanes"
       ],
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "Ramo-Princesa-Rapunzel",
+      "name": "Ramo Temática Princesa (Rapunzel y Pascal)",
+      "description": "Ramo artesanal de limpiapipas inspirado en Rapunzel, incluye la figura de Pascal y flores en tonos amarillo y lila",
+      "includes": [
+        "1 figura de Pascal (el camaleón) de limpiapipas con una flor rosa",
+        "1 flor principal grande en tonos amarillo y morado",
+        "Mini flores decorativas y espigas en tonos lila y rosa",
+        "Envoltura coreana lila con bordes dorados, tarjeta decorativa y lazo"
+      ],
+      "price": 59,
+      "image": "assets/images/rAPuncel-removebg-preview.png",
+      "categories": [
+        "Temáticos",
+        "Para ella"
+      ],
+      "flowers": [
+        "Lirios"
+      ],
+      "theme": "princesas",
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
