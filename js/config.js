@@ -32,7 +32,7 @@ window.MYALOVE = {
   categoryOrder: ["Para ella", "Para él", "Flor individual", "Ramos de 2 a 3 flores", "Ramos mixtos", "Con luces LED", "Con peluche", "Temáticos"],
 
   // 8b) Tipos de flor para filtrar (agrega o quita los que quieras)
-  flowerOrder: ["Rosas", "Tulipanes", "Girasoles", "Gerberas", "Lirios", "Flor de loto", "Margaritas", "Claveles", "Hortensias", "Orquídeas", "Peonías"],
+  flowerOrder: ["Rosas", "Tulipanes", "Girasoles", "Gerberas", "Lirios", "Flor de loto", "Margaritas", "Claveles", "Hortensias", "Orquídeas","Anturios", "Peonías"],
 
   // 9) Colores que ofreces en el personalizador (nombre visible + color)
   colors: [
