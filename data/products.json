@@ -517,13 +517,33 @@
       "available": true
     },
     {
+      "id": "Ramo-Abundante-Gerberas-Tulipanes",
+      "name": "Ramo Grande de Gerberas Rosas y Tulipanes Blancos",
+      "description": "Espectacular ramo artesanal de limpiapipas con un tupido ramillete de gerberas rosas rodeado de tulipanes blancos y follaje verde.",
+      "includes": [
+        "5 gerberas grandes de limpiapipas en color rosa con centro negro",
+        "6 tulipanes/capullos blancos de limpiapipas",
+        "Abundantes hojas alargadas de limpiapipas color verde oscuro",
+        "Envoltura coreana en tono rosa pastel y lazo de cinta"
+      ],
+      "price": 70,
+      "image": "assets/images/69acebd66d8e33aad04e151c2fc097c8-Photoroom (1).png",
+      "tipo": "Ramos",
+      "categories": [
+        "Para ella",
+        "Ramos de 2 a 3 flores",
+        "Ramos mixtos"
+      ],
+      "quantities": [
+        11
+      ],
       "allowInitials": false,
       "allowPhoto": false,
       "allowLed": false,
       "allowPlush": false,
-      "allowCard": false,
+      "allowCard": true,
       "featured": false,
-      "available": false
+      "available": true
     }
   ]
 }
