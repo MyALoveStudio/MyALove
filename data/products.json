@@ -842,6 +842,40 @@
       "allowCard": true,
       "featured": false,
       "available": true
+    },
+    {
+      "id": "Coleccion-Mini-Macetas-Variadas",
+      "name": "Mini Maceta Artesanal de Limpiapipas (Diseños Variados)",
+      "description": "Hermosas mini macetas tejidas en limpiapipas con modelos variados (girasol, hortensias, tulipán y ramillete), ideales para escritorio o detalle especial.",
+      "includes": [
+        "Girasol Individual con mini margarita",
+        "Hortensia Azul con detalles de perlas",
+        "Hortensia Lila/Lila pastel",
+        "Tulipán Rosa con mini margarita",
+        "Ramillete de Mini Girasoles"
+      ],
+      "price": 10,
+      "image": "assets/images/WhatsApp Image 2026-10-12 at-Photoroom.png",
+      "tipo": "Macetas",
+      "categories": [
+        "Para ella",
+        "Para él"
+      ],
+      "flowers": [
+        "Girasoles",
+        "Hortensias",
+        "Tulipanes"
+      ],
+      "quantities": [
+        1
+      ],
+      "allowInitials": false,
+      "allowPhoto": false,
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": false,
+      "featured": false,
+      "available": true
     }
   ]
 }
