@@ -27,7 +27,38 @@
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
-      "featured": true,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "Ramo-Girasol-Vintage-Periodico",
+      "name": "Ramo de Girasol Vintage en Papel Periódico",
+      "description": "Elegante ramo artesanal de limpiapipas con un girasol principal, hojas alargadas, mini margaritas y envoltura vintage estilo papel periódico.",
+      "includes": [
+        "1 girasol grande de limpiapipas en color amarillo/vibrante con centro café",
+        "Hojas verdes alargadas de limpiapipas con estructura marcada",
+        "Ramita con mini margaritas/flores blancas",
+        "Envoltura de papel kraft estilo periódico vintage con lazo negro"
+      ],
+      "price": 14,
+      "image": "assets/images/22e7dd465c7455fa86e11f52ca6a6d41-Photoroom.png",
+      "tipo": "Ramos",
+      "categories": [
+        "Para ella",
+        "Flor individual"
+      ],
+      "flowers": [
+        "Girasoles"
+      ],
+      "quantities": [
+        1
+      ],
+      "allowInitials": false,
+      "allowPhoto": false,
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
       "available": true
     },
     {
@@ -63,6 +94,96 @@
       "available": true
     },
     {
+      "id": "Coleccion-Mini-Macetas-Variadas",
+      "name": "Mini Maceta Artesanal de Limpiapipas (Diseños Variados)",
+      "description": "Hermosas mini macetas tejidas en limpiapipas con modelos variados (girasol, hortensias, tulipán y ramillete), ideales para escritorio o detalle especial.",
+      "includes": [
+        "Girasol Individual con mini margarita",
+        "Hortensia Azul con detalles de perlas",
+        "Hortensia Lila/Lila pastel",
+        "Tulipán Rosa con mini margarita",
+        "Ramillete de Mini Girasoles"
+      ],
+      "price": 10,
+      "image": "assets/images/WhatsApp Image 2026-10-12 at-Photoroom.png",
+      "tipo": "Macetas",
+      "categories": [
+        "Para ella",
+        "Para él"
+      ],
+      "flowers": [
+        "Girasoles",
+        "Hortensias",
+        "Tulipanes"
+      ],
+      "quantities": [
+        1
+      ],
+      "allowInitials": false,
+      "allowPhoto": false,
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": false,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "Ramo-Tematico-DragonBall-Shenlong",
+      "name": "Ramo Temático Dragon Ball con 7 Esferas y Dragón Shenlong",
+      "description": "Espectacular ramo temático de Dragon Ball confeccionado en limpiapipas, con las 7 esferas del dragón en relieve, figura articulada de Shenlong y elegante envoltura negra.",
+      "includes": [
+        "7 esferas del dragón de limpiapipas en tono naranja brillante con estrellas rojas centrales (de 1 a 7 estrellas)",
+        "1 figura artesanal del Dragón Shenlong de limpiapipas con detalles en verde y rojo",
+        "Flores complementarias amarillas, mini margaritas y follaje verde",
+        "Envoltura coreana contrastada en colores negro y crema con lazo azul/rojo"
+      ],
+      "price": 85,
+      "image": "assets/images/dragonball-Photoroom.png",
+      "tipo": "Ramos",
+      "categories": [
+        "Para él",
+        "Temáticos"
+      ],
+      "allowInitials": false,
+      "allowPhoto": false,
+      "allowLed": true,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": true,
+      "available": true
+    },
+    {
+      "id": "Ramo-Anime-Gojo",
+      "name": "Ramo Temática Anime (Satoru Gojo)",
+      "description": "Ramo artesanal de limpiapipas inspirado en Satoru Gojo de Jujutsu Kaisen, con flores azules y múltiples tarjetas del personaje.",
+      "includes": [
+        "Varias tarjetas decorativas con ilustraciones de Satoru Gojo",
+        "2 capullos cerrados de limpiapipas en color azul intenso",
+        "1 lirio azul claro central y mini flores blancas de acompañamiento",
+        "Envoltura blanca coreana con detalles tornasolados y lazo translúcido"
+      ],
+      "price": 40,
+      "image": "assets/images/gojo-Photoroom-1.png",
+      "categories": [
+        "Temáticos",
+        "Para él",
+        "Para ella",
+        "Ramos de 2 a 3 flores"
+      ],
+      "flowers": [
+        "Lirios",
+        "Tulipanes"
+      ],
+      "theme": "Anime",
+      "allowInitials": false,
+      "allowPhoto": false,
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
+    },
+    {
       "id": "Lirio-Rosa-Elegante",
       "name": "Ramo de Lirio Rosa Artesanal",
       "description": "Delicado ramo artesanal de limpiapipas con un lirio rosa principal y margaritas de acompañamiento",
@@ -85,36 +206,6 @@
       "quantities": [
         4
       ],
-      "allowInitials": false,
-      "allowPhoto": false,
-      "allowLed": false,
-      "allowPlush": false,
-      "allowCard": true,
-      "featured": false,
-      "available": true
-    },
-    {
-      "id": "Ramo-Fantasmas-Halloween",
-      "name": "Ramo Fantasmas",
-      "description": "Ramo artesanal de limpiapipas con temática de Halloween, estilo tierno con fantasmas y margaritas.",
-      "includes": [
-        "3 fantasmas blancos de limpiapipas",
-        "Margaritas de limpiapipas en colores blanco, negro y lila",
-        "Murciélagos negros y estrellas decorativas",
-        "Envoltura de papel morado con lazo negro"
-      ],
-      "price": 67,
-      "image": "assets/images/Lavender Halloween Ghost Bouquet.png",
-      "categories": [
-        "Temáticos"
-      ],
-      "seasons": [
-        "halloween"
-      ],
-      "flowers": [
-        "Margaritas"
-      ],
-      "theme": "terror",
       "allowInitials": false,
       "allowPhoto": false,
       "allowLed": false,
@@ -331,6 +422,36 @@
       "available": true
     },
     {
+      "id": "Ramo-Fantasmas-Halloween",
+      "name": "Ramo Fantasmas",
+      "description": "Ramo artesanal de limpiapipas con temática de Halloween, estilo tierno con fantasmas y margaritas.",
+      "includes": [
+        "3 fantasmas blancos de limpiapipas",
+        "Margaritas de limpiapipas en colores blanco, negro y lila",
+        "Murciélagos negros y estrellas decorativas",
+        "Envoltura de papel morado con lazo negro"
+      ],
+      "price": 67,
+      "image": "assets/images/Lavender Halloween Ghost Bouquet.png",
+      "categories": [
+        "Temáticos"
+      ],
+      "seasons": [
+        "halloween"
+      ],
+      "flowers": [
+        "Margaritas"
+      ],
+      "theme": "terror",
+      "allowInitials": false,
+      "allowPhoto": false,
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
+    },
+    {
       "id": "Lirios-hallowen",
       "name": "Demogorgon / Carnívoras",
       "description": "Ramo de temática Halloween hecho a mano con limpiapipas, estilo gótico y tétrico",
@@ -381,37 +502,6 @@
       "quantities": [
         2
       ],
-      "allowInitials": false,
-      "allowPhoto": false,
-      "allowLed": false,
-      "allowPlush": false,
-      "allowCard": true,
-      "featured": false,
-      "available": true
-    },
-    {
-      "id": "Ramo-Anime-Gojo",
-      "name": "Ramo Temática Anime (Satoru Gojo)",
-      "description": "Ramo artesanal de limpiapipas inspirado en Satoru Gojo de Jujutsu Kaisen, con flores azules y múltiples tarjetas del personaje.",
-      "includes": [
-        "Varias tarjetas decorativas con ilustraciones de Satoru Gojo",
-        "2 capullos cerrados de limpiapipas en color azul intenso",
-        "1 lirio azul claro central y mini flores blancas de acompañamiento",
-        "Envoltura blanca coreana con detalles tornasolados y lazo translúcido"
-      ],
-      "price": 40,
-      "image": "assets/images/gojo-Photoroom-1.png",
-      "categories": [
-        "Temáticos",
-        "Para él",
-        "Para ella",
-        "Ramos de 2 a 3 flores"
-      ],
-      "flowers": [
-        "Lirios",
-        "Tulipanes"
-      ],
-      "theme": "Anime",
       "allowInitials": false,
       "allowPhoto": false,
       "allowLed": false,
@@ -841,65 +931,6 @@
       "allowPlush": false,
       "allowCard": true,
       "featured": false,
-      "available": true
-    },
-    {
-      "id": "Coleccion-Mini-Macetas-Variadas",
-      "name": "Mini Maceta Artesanal de Limpiapipas (Diseños Variados)",
-      "description": "Hermosas mini macetas tejidas en limpiapipas con modelos variados (girasol, hortensias, tulipán y ramillete), ideales para escritorio o detalle especial.",
-      "includes": [
-        "Girasol Individual con mini margarita",
-        "Hortensia Azul con detalles de perlas",
-        "Hortensia Lila/Lila pastel",
-        "Tulipán Rosa con mini margarita",
-        "Ramillete de Mini Girasoles"
-      ],
-      "price": 10,
-      "image": "assets/images/WhatsApp Image 2026-10-12 at-Photoroom.png",
-      "tipo": "Macetas",
-      "categories": [
-        "Para ella",
-        "Para él"
-      ],
-      "flowers": [
-        "Girasoles",
-        "Hortensias",
-        "Tulipanes"
-      ],
-      "quantities": [
-        1
-      ],
-      "allowInitials": false,
-      "allowPhoto": false,
-      "allowLed": false,
-      "allowPlush": false,
-      "allowCard": false,
-      "featured": false,
-      "available": true
-    },
-    {
-      "id": "Ramo-Tematico-DragonBall-Shenlong",
-      "name": "Ramo Temático Dragon Ball con 7 Esferas y Dragón Shenlong",
-      "description": "Espectacular ramo temático de Dragon Ball confeccionado en limpiapipas, con las 7 esferas del dragón en relieve, figura articulada de Shenlong y elegante envoltura negra.",
-      "includes": [
-        "7 esferas del dragón de limpiapipas en tono naranja brillante con estrellas rojas centrales (de 1 a 7 estrellas)",
-        "1 figura artesanal del Dragón Shenlong de limpiapipas con detalles en verde y rojo",
-        "Flores complementarias amarillas, mini margaritas y follaje verde",
-        "Envoltura coreana contrastada en colores negro y crema con lazo azul/rojo"
-      ],
-      "price": 85,
-      "image": "assets/images/dragonball-Photoroom.png",
-      "tipo": "Ramos",
-      "categories": [
-        "Para él",
-        "Temáticos"
-      ],
-      "allowInitials": false,
-      "allowPhoto": false,
-      "allowLed": true,
-      "allowPlush": false,
-      "allowCard": true,
-      "featured": true,
       "available": true
     }
   ]
