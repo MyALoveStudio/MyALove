@@ -361,6 +361,40 @@
       "available": true
     },
     {
+      "id": "Ramo-7-Tulipanes-Azul",
+      "name": "Ramo de 7 Tulipanes Azules",
+      "description": "Espectacular ramo artesanal de limpiapipas con 7 tulipanes en tono azul celeste",
+      "includes": [
+        "7 tulipanes de limpiapipas en tono azul celeste con hojas verdes",
+        "Detalle de tira de perlas decorativas sobre tul plisado",
+        "Envoltura coreana en tono azul turquesa/celeste y blanco con lazo azul translúcido"
+      ],
+      "price": 50,
+      "image": "assets/images/dc56f5b19417ef90a4fc7d1c2256b390-Photoroom.png",
+      "tipo": "Ramos",
+      "categories": [
+        "Para ella",
+        "Para él",
+        "Ramos de 2 a 3 flores"
+      ],
+      "seasons": [
+        "san-valentin"
+      ],
+      "flowers": [
+        "Tulipanes"
+      ],
+      "quantities": [
+        7
+      ],
+      "allowInitials": false,
+      "allowPhoto": false,
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
+    },
+    {
       "id": "Ramo-Loto-Vintage",
       "name": "Especial",
       "description": "Ramo artesanal de limpiapipas con flores de loto rosas, hojas acanaladas y envoltura estilo periódico antiguo.",
@@ -388,6 +422,39 @@
       "allowCard": true,
       "featured": true,
       "available": true
+    },
+    {
+      "id": "Ramo-4-Tulipanes-Rosa",
+      "name": "Ramo de 4 Tulipanes Rosas con Malla Decorativa",
+      "description": "Delicado ramo artesanal de limpiapipas con 4 tulipanes rosa pastel, hojas verdes estilizadas y envoltura ",
+      "includes": [
+        "4 tulipanes de limpiapipas en color rosa pastel con tallos y hojas largas verdes",
+        "Malla textil de rejilla en color beige/crema como fondo decorativo",
+        "Envoltura coreana en tono rosa pastel"
+      ],
+      "price": 30,
+      "image": "assets/images/04fb587bce48a904f82a5e1a84a8d668-Photoroom.png",
+      "tipo": "Ramos",
+      "categories": [
+        "Para ella",
+        "Ramos de 2 a 3 flores"
+      ],
+      "seasons": [
+        "san-valentin"
+      ],
+      "flowers": [
+        "Tulipanes"
+      ],
+      "quantities": [
+        4
+      ],
+      "allowInitials": false,
+      "allowPhoto": false,
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": false
     },
     {
       "id": "Ramo-Princesa-Tiana",
@@ -738,73 +805,6 @@
       "allowCard": false,
       "featured": false,
       "available": false
-    },
-    {
-      "id": "Ramo-4-Tulipanes-Rosa",
-      "name": "Ramo de 4 Tulipanes Rosas con Malla Decorativa",
-      "description": "Delicado ramo artesanal de limpiapipas con 4 tulipanes rosa pastel, hojas verdes estilizadas y envoltura ",
-      "includes": [
-        "4 tulipanes de limpiapipas en color rosa pastel con tallos y hojas largas verdes",
-        "Malla textil de rejilla en color beige/crema como fondo decorativo",
-        "Envoltura coreana en tono rosa pastel"
-      ],
-      "price": 30,
-      "image": "assets/images/04fb587bce48a904f82a5e1a84a8d668-Photoroom.png",
-      "tipo": "Ramos",
-      "categories": [
-        "Para ella",
-        "Ramos de 2 a 3 flores"
-      ],
-      "seasons": [
-        "san-valentin"
-      ],
-      "flowers": [
-        "Tulipanes"
-      ],
-      "quantities": [
-        4
-      ],
-      "allowInitials": false,
-      "allowPhoto": false,
-      "allowLed": false,
-      "allowPlush": false,
-      "allowCard": true,
-      "featured": false,
-      "available": false
-    },
-    {
-      "id": "Ramo-7-Tulipanes-Azul",
-      "name": "Ramo de 7 Tulipanes Azules",
-      "description": "Espectacular ramo artesanal de limpiapipas con 7 tulipanes en tono azul celeste",
-      "includes": [
-        "7 tulipanes de limpiapipas en tono azul celeste con hojas verdes",
-        "Detalle de tira de perlas decorativas sobre tul plisado",
-        "Envoltura coreana en tono azul turquesa/celeste y blanco con lazo azul translúcido"
-      ],
-      "price": 50,
-      "image": "assets/images/dc56f5b19417ef90a4fc7d1c2256b390-Photoroom.png",
-      "tipo": "Ramos",
-      "categories": [
-        "Para ella",
-        "Para él",
-        "Ramos de 2 a 3 flores"
-      ],
-      "seasons": [
-        "san-valentin"
-      ],
-      "flowers": [
-        "Tulipanes"
-      ],
-      "quantities": [
-        7
-      ],
-      "allowInitials": false,
-      "allowPhoto": false,
-      "allowLed": false,
-      "allowPlush": false,
-      "allowCard": true,
-      "featured": false,
-      "available": true
     },
     {
       "id": "Ramo-2-Tulipanes-Rosa",
