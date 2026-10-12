@@ -876,6 +876,31 @@
       "allowCard": false,
       "featured": false,
       "available": true
+    },
+    {
+      "id": "Ramo-Tematico-DragonBall-Shenlong",
+      "name": "Ramo Temático Dragon Ball con 7 Esferas y Dragón Shenlong",
+      "description": "Espectacular ramo temático de Dragon Ball confeccionado en limpiapipas, con las 7 esferas del dragón en relieve, figura articulada de Shenlong y elegante envoltura negra.",
+      "includes": [
+        "7 esferas del dragón de limpiapipas en tono naranja brillante con estrellas rojas centrales (de 1 a 7 estrellas)",
+        "1 figura artesanal del Dragón Shenlong de limpiapipas con detalles en verde y rojo",
+        "Flores complementarias amarillas, mini margaritas y follaje verde",
+        "Envoltura coreana contrastada en colores negro y crema con lazo azul/rojo"
+      ],
+      "price": 85,
+      "image": "assets/images/dragonball-Photoroom.png",
+      "tipo": "Ramos",
+      "categories": [
+        "Para él",
+        "Temáticos"
+      ],
+      "allowInitials": false,
+      "allowPhoto": false,
+      "allowLed": true,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": true,
+      "available": true
     }
   ]
 }
