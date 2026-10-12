@@ -811,6 +811,37 @@
       "allowCard": true,
       "featured": false,
       "available": true
+    },
+    {
+      "id": "Maceta-Mini-Hortensia-Rosa",
+      "name": "Mini Maceta Artesanal de Hortensia Rosa con Perlas",
+      "description": "Hermosa macetita artesanal de limpiapipas con ramillete esférico tipo hortensia rosa, detalles de perlitas",
+      "includes": [
+        "1 flor esférica tipo hortensia compuesta por múltiples mini flores rosas de limpiapipas",
+        "Perlas decorativas en el centro de cada mini flor",
+        "Hojas verdes de limpiapipas en la base",
+        "Macetita artesanal tejida con limpiapipas en tono beige/marrón claro con césped verde"
+      ],
+      "price": 12,
+      "image": "assets/images/WhatsApp Image 2026-10-12 at 1.54.46 AM-Photoroom.png",
+      "tipo": "Macetas",
+      "categories": [
+        "Para ella",
+        "Flor individual"
+      ],
+      "flowers": [
+        "Hortensias"
+      ],
+      "quantities": [
+        1
+      ],
+      "allowInitials": false,
+      "allowPhoto": false,
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
     }
   ]
 }
