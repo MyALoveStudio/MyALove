@@ -746,6 +746,41 @@
       "allowCard": true,
       "featured": false,
       "available": true
+    },
+    {
+      "id": "Ramo-Gigante-Tulipanes-LED",
+      "name": "Ramo Gigante de Tulipanes Rosas con Luces LED",
+      "description": "Imponente ramo artesanal de limpiapipas con más de 15 tulipanes rosa pastel, iluminación LED cálida, tul blanco y elegante tarjeta de fondo.",
+      "includes": [
+        "Ramillete denso de 15-18 tulipanes de limpiapipas en tono rosa/durazno pastel con hojas verdes",
+        "Serie de luces LED cálidas integradas entre las flores",
+        "Detalle de tul blanco con borde plisado rodeando el arreglo",
+        "Envoltura coreana blanca multicapa con lazo"
+      ],
+      "price": 130,
+      "image": "assets/images/851b9b68b89bf71fb417e720e1444c6f-Photoroom.png",
+      "tipo": "Ramos",
+      "categories": [
+        "Para ella",
+        "Ramos de 2 a 3 flores"
+      ],
+      "seasons": [
+        "san-valentin",
+        "dia-de-la-madre"
+      ],
+      "flowers": [
+        "Tulipanes"
+      ],
+      "quantities": [
+        18
+      ],
+      "allowInitials": true,
+      "allowPhoto": true,
+      "allowLed": true,
+      "allowPlush": true,
+      "allowCard": true,
+      "featured": false,
+      "available": true
     }
   ]
 }
