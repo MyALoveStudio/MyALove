@@ -544,6 +544,80 @@
       "allowCard": true,
       "featured": false,
       "available": true
+    },
+    {
+      "id": "Ramo-Grande-Gerberas-TeAmo",
+      "name": "Ramo Gigante de Gerberas Durazno \"Te Amo\"",
+      "description": "Espectacular y tupido ramo artesanal de limpiapipas con gerberas tono durazno, margaritas, follaje de eucalipto y letras doradas \"TE AMO\".",
+      "includes": [
+        "6 gerberas grandes de limpiapipas en color durazno/salmón pastel con centro marrón",
+        "Varias mini margaritas blancas con centro amarillo",
+        "Ramitas verdes estilo eucalipto y hojas de limpiapipas",
+        "Letras doradas en escarcha con la frase \"TE AMO\"",
+        "Envoltura coreana"
+      ],
+      "price": 65,
+      "image": "assets/images/6gerb-Photoroom.png",
+      "tipo": "Ramos",
+      "categories": [
+        "Para ella",
+        "Para él",
+        "Ramos de 2 a 3 flores"
+      ],
+      "seasons": [
+        "san-valentin"
+      ],
+      "flowers": [
+        "Orquídeas",
+        "Margaritas"
+      ],
+      "quantities": [
+        6
+      ],
+      "allowInitials": false,
+      "allowPhoto": false,
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "Ramo-Mixto-Lirios-Tulipanes-Rosa",
+      "name": "Ramo Primavera de Lirios Blancos y Tulipanes Rosas",
+      "description": "Elegante ramo artesanal de limpiapipas en tonos rosa y blanco, con lirios, tulipanes, gerberas y tarjeta decorativa",
+      "includes": [
+        "2 lirios grandes de limpiapipas blancos con destellos suaves en rosa y estambres amarillos",
+        "6 capullos de tulipán rosa y 2 gerberas rosas de limpiapipas",
+        "Ramitas verdes de eucalipto y espigas blancas de relleno",
+        "Envoltura coreana bitono (blanco y rosa pastel) con lazo"
+      ],
+      "price": 75,
+      "image": "assets/images/8ca7fa8dc391d3b993fc8dff185c0302-Photoroom.png",
+      "tipo": "Ramos",
+      "categories": [
+        "Para ella",
+        "Ramos mixtos",
+        "Ramos de 2 a 3 flores"
+      ],
+      "seasons": [
+        "san-valentin"
+      ],
+      "flowers": [
+        "Gerberas",
+        "Lirios",
+        "Tulipanes"
+      ],
+      "quantities": [
+        10
+      ],
+      "allowInitials": false,
+      "allowPhoto": false,
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
     }
   ]
 }
