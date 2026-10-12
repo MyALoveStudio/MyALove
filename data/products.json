@@ -22,6 +22,8 @@
       "quantities": [
         1
       ],
+      "allowInitials": false,
+      "allowPhoto": false,
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -52,6 +54,8 @@
       "quantities": [
         6
       ],
+      "allowInitials": false,
+      "allowPhoto": false,
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -81,6 +85,8 @@
       "quantities": [
         4
       ],
+      "allowInitials": false,
+      "allowPhoto": false,
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -109,6 +115,8 @@
         "Margaritas"
       ],
       "theme": "terror",
+      "allowInitials": false,
+      "allowPhoto": false,
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -134,6 +142,8 @@
       "flowers": [
         "Lirios"
       ],
+      "allowInitials": false,
+      "allowPhoto": false,
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -159,6 +169,8 @@
       "flowers": [
         "Lirios"
       ],
+      "allowInitials": false,
+      "allowPhoto": false,
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -187,6 +199,8 @@
       "quantities": [
         4
       ],
+      "allowInitials": false,
+      "allowPhoto": false,
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -216,6 +230,8 @@
       "quantities": [
         1
       ],
+      "allowInitials": false,
+      "allowPhoto": false,
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -245,6 +261,8 @@
         "Girasoles"
       ],
       "theme": "terror",
+      "allowInitials": false,
+      "allowPhoto": false,
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -272,6 +290,8 @@
       "quantities": [
         4
       ],
+      "allowInitials": false,
+      "allowPhoto": false,
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -302,6 +322,8 @@
         "Lirios"
       ],
       "theme": "princesas",
+      "allowInitials": false,
+      "allowPhoto": false,
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -327,6 +349,8 @@
         "halloween"
       ],
       "theme": "terror",
+      "allowInitials": false,
+      "allowPhoto": false,
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -357,6 +381,8 @@
       "quantities": [
         2
       ],
+      "allowInitials": false,
+      "allowPhoto": false,
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
@@ -386,11 +412,118 @@
         "Tulipanes"
       ],
       "theme": "Anime",
+      "allowInitials": false,
+      "allowPhoto": false,
       "allowLed": false,
       "allowPlush": false,
       "allowCard": true,
       "featured": false,
       "available": true
+    },
+    {
+      "id": "Cuadro-3D-Girasoles-LED",
+      "name": "Cuadro 3D Personalizado con Girasoles y Luces LED",
+      "description": "Cuadro marco 3D personalizado con collage de fotos, decorado artesanalmente con girasoles de limpiapipas y luces LED.",
+      "includes": [
+        "Marco de madera 3D (cuadro de profundidad) con iluminación LED cálida",
+        "Collage central personalizado de 6 fotografías con mensaje especial",
+        "3 girasoles grandes de limpiapipas en relieve",
+        "Decoración de margaritas blancas, hojas verdes y ramas de eucalipto"
+      ],
+      "price": 40,
+      "image": "assets/images/VF-Photoroom.png",
+      "tipo": "Cuadros 3D",
+      "categories": [
+        "Para ella",
+        "Para él",
+        "Con luces LED"
+      ],
+      "flowers": [
+        "Girasoles",
+        "Margaritas"
+      ],
+      "sizes": [
+        "20"
+      ],
+      "allowInitials": true,
+      "allowPhoto": true,
+      "allowLed": true,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "Mini-Ramo-Gerbera-Tulipan",
+      "name": "Mini Ramo de Gerbera y Tulipán Rosa",
+      "description": "Delicado mini ramo artesanal de limpiapipas con gerbera y tulipán en tonos rosas",
+      "includes": [
+        "1 gerbera rosa grande con centro amarillo y blanco",
+        "1 capullo de tulipán rosa con hojas verdes",
+        "Ramitas de relleno con brotes blancos",
+        "Envoltura coreana en tonos crema y blanco con lazo rosado y sticker de agradecimiento"
+      ],
+      "price": 13,
+      "image": "assets/images/f-Photoroom (1).png",
+      "tipo": "Ramos",
+      "categories": [
+        "Para ella",
+        "Flor individual"
+      ],
+      "flowers": [
+        "Gerberas",
+        "Tulipanes"
+      ],
+      "quantities": [
+        2
+      ],
+      "allowInitials": false,
+      "allowPhoto": false,
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "Ramo-Gerberas-Rojas",
+      "name": "Ramo de Gerberas Rojas / Vino",
+      "description": "Elegante ramo artesanal de limpiapipas con tres gerberas en tono rojo borgoña y finos detalles dorados.",
+      "includes": [
+        "3 gerberas grandes de limpiapipas en color rojo intenso/borgoña con centro oscuro",
+        "Ramitas de hojas verdes de limpiapipas",
+        "Envoltura coreana.",
+        "Lazo elegante de cinta satinada dorada"
+      ],
+      "price": 30,
+      "image": "assets/images/00507dbaddc804d89f55902f5ebd1fc2-Photoroom (1).png",
+      "tipo": "Ramos",
+      "categories": [
+        "Para ella",
+        "Ramos de 2 a 3 flores"
+      ],
+      "flowers": [
+        "Gerberas"
+      ],
+      "quantities": [
+        3
+      ],
+      "allowInitials": false,
+      "allowPhoto": false,
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": true,
+      "featured": false,
+      "available": true
+    },
+    {
+      "allowInitials": false,
+      "allowPhoto": false,
+      "allowLed": false,
+      "allowPlush": false,
+      "allowCard": false,
+      "featured": false,
+      "available": false
     }
   ]
 }
